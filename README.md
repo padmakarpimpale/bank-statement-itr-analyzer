@@ -22,32 +22,15 @@ The app runs in the browser. PDF parsing, analysis, and Excel creation happen lo
 
 ## Local run
 
-```bash
-npm run build
-```
-
-Then open `dist/index.html` in the browser. The source static files live in `public/`.
-
-If PowerShell blocks `npm`, run:
-
-```bash
-npm.cmd run build
-```
-
-## Production build
-
-```bash
-npm run build
-```
-
-The deployable static files are created in `dist/`.
+Open `index.html` in a browser.
 
 ## Deploy to Vercel
 
-This is a static app. Import the GitHub repository in Vercel. The project includes `vercel.json`, so Vercel should use:
+This is a pure static app. Import the GitHub repository in Vercel and deploy with:
 
-- Build command: `npm run build`
-- Output directory: `dist`
+- Framework preset: Other
+- Build command: empty
+- Output directory: empty
 
 No environment variables are required.
 

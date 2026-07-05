@@ -19,13 +19,11 @@ git push -u origin main
 2. Choose Add New Project.
 3. Import the GitHub repository.
 4. Keep the framework as Other if Vercel does not auto-detect one.
-5. Build command: `npm run build`.
-6. Output directory: `dist`.
+5. Build command: empty.
+6. Output directory: empty.
 7. Deploy.
 
-The `dist` folder is also committed to the repository, so the project remains static-only and does not require any serverless function.
-
-The browser files live under `public/`, so Vercel should not run `app.js` as a serverless function.
+This project has no `package.json`, no server file, and no root `app.js`, so Vercel should deploy it as plain static HTML.
 
 No API key or environment variable is required.
 
