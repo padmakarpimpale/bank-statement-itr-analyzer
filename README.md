@@ -38,9 +38,20 @@ If PowerShell blocks `npm`, run:
 npm.cmd run dev
 ```
 
+## Production build
+
+```bash
+npm run build
+```
+
+The deployable static files are created in `dist/`.
+
 ## Deploy to Vercel
 
-This is a static app. Import the GitHub repository in Vercel and deploy with default settings.
+This is a static app. Import the GitHub repository in Vercel. The project includes `vercel.json`, so Vercel should use:
+
+- Build command: `npm run build`
+- Output directory: `dist`
 
 No environment variables are required.
 

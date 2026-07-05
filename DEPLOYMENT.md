@@ -19,8 +19,8 @@ git push -u origin main
 2. Choose Add New Project.
 3. Import the GitHub repository.
 4. Keep the framework as Other if Vercel does not auto-detect one.
-5. Keep build command empty.
-6. Keep output directory empty or root.
+5. Build command: `npm run build`.
+6. Output directory: `dist`.
 7. Deploy.
 
 No API key or environment variable is required.
