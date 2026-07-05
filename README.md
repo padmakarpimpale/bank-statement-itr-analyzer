@@ -37,7 +37,7 @@ This is a Vite static app. Import the GitHub repository in Vercel and deploy wit
 
 No environment variables are required.
 
-If an existing Vercel project keeps using the Node/server preset, `app.cjs` serves the same browser-only app safely.
+If an existing Vercel project keeps using the Node/server preset, `app.cjs` serves the same browser-only app safely. It embeds the app files so Vercel does not need to bundle separate HTML/CSS/JS files into the function.
 
 See `DEPLOYMENT.md` for the GitHub push commands and Vercel settings.
 

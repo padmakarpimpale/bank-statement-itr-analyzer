@@ -25,7 +25,7 @@ git push -u origin main
 
 This project uses Vite only as a static build tool. There is no server file and no paid API key.
 
-If Vercel is locked to a Node/server preset, `app.cjs` is included as a tiny entrypoint that serves the same browser files.
+If Vercel is locked to a Node/server preset, `app.cjs` is included as a self-contained entrypoint that serves the same browser files.
 
 No API key or environment variable is required.
 
