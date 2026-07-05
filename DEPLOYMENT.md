@@ -23,6 +23,10 @@ git push -u origin main
 6. Output directory: `dist`.
 7. Deploy.
 
+The `dist` folder is also committed to the repository, so the project remains static-only and does not require any serverless function.
+
+The browser files live under `public/`, so Vercel should not run `app.js` as a serverless function.
+
 No API key or environment variable is required.
 
 ## Vercel CLI Option

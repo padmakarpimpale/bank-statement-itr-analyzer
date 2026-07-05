@@ -23,19 +23,15 @@ The app runs in the browser. PDF parsing, analysis, and Excel creation happen lo
 ## Local run
 
 ```bash
-npm run dev
+npm run build
 ```
 
-Then open:
-
-```text
-http://localhost:4173
-```
+Then open `dist/index.html` in the browser. The source static files live in `public/`.
 
 If PowerShell blocks `npm`, run:
 
 ```bash
-npm.cmd run dev
+npm.cmd run build
 ```
 
 ## Production build

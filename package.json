@@ -4,7 +4,6 @@
   "private": true,
   "description": "Free client-side bank statement PDF to Excel converter with ITR-oriented analysis.",
   "scripts": {
-    "dev": "node server.mjs",
     "build": "node build.mjs"
   },
   "keywords": [
