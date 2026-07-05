@@ -2,6 +2,7 @@
   "name": "bank-statement-itr-analyzer",
   "version": "1.0.0",
   "private": true,
+  "main": "app.cjs",
   "type": "module",
   "description": "Free browser-based bank statement PDF to Excel converter with ITR-oriented analysis.",
   "scripts": {
