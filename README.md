@@ -22,15 +22,18 @@ The app runs in the browser. PDF parsing, analysis, and Excel creation happen lo
 
 ## Local run
 
-Open `index.html` in a browser.
+```bash
+npm install
+npm run dev
+```
 
 ## Deploy to Vercel
 
-This is a pure static app. Import the GitHub repository in Vercel and deploy with:
+This is a Vite static app. Import the GitHub repository in Vercel and deploy with:
 
-- Framework preset: Other
-- Build command: empty
-- Output directory: empty
+- Framework preset: Vite
+- Build command: `npm run build`
+- Output directory: `dist`
 
 No environment variables are required.
 

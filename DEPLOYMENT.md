@@ -18,12 +18,12 @@ git push -u origin main
 1. Open Vercel.
 2. Choose Add New Project.
 3. Import the GitHub repository.
-4. Keep the framework as Other if Vercel does not auto-detect one.
-5. Build command: empty.
-6. Output directory: empty.
+4. Set the framework as Vite.
+5. Build command: `npm run build`.
+6. Output directory: `dist`.
 7. Deploy.
 
-This project has no `package.json`, no server file, and no root `app.js`, so Vercel should deploy it as plain static HTML.
+This project uses Vite only as a static build tool. There is no server file and no paid API key.
 
 No API key or environment variable is required.
 
@@ -34,6 +34,7 @@ If you prefer command line deployment:
 ```bash
 npm i -g vercel
 vercel login
+vercel build
 vercel --prod
 ```
 
